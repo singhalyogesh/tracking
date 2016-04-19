@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">DepartureTime</string>
+    <string name="main_activity_title">Agencies List</string>
+    <string name="routes_activity_title">Agency Routes</string>
+    <string name="stops_activity_title">Stops List</string>
+    <string name="departures_activity_title">Departure Times</string>
+
+</resources>

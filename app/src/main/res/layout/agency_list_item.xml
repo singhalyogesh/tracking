@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:padding="2dp" >
+
+
+<TextView
+    android:id="@+id/agency_name"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="10dp"
+    android:text="Agency Name"
+    android:textSize="15dp"
+    android:textColor="#ff000000"
+    android:layout_marginLeft="10dp" />
+
+<TextView
+    android:id="@+id/has_direction"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignLeft="@+id/agency_name"
+    android:layout_below="@+id/agency_name"
+    android:text="Has Direction"
+    android:textSize="12dp"
+    android:textColor="#ffbebebe"
+    android:layout_marginBottom="10dp"
+    android:layout_marginTop="5dp" />
+
+<TextView
+    android:id="@+id/mode"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignBaseline="@+id/agency_name"
+    android:layout_alignBottom="@+id/agency_name"
+    android:layout_alignParentRight="true"
+    android:text="Mode"
+    android:textSize="12dp"
+    android:layout_marginRight="20dp"
+    android:textColor="#ffbebebe" />
+
+</RelativeLayout>
